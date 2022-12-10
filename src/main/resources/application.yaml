@@ -2,7 +2,7 @@
 #  port: 8090
 
 telegram:
-  webhook-path: https://telegrambotforyoshlar.herokuapp.com
+  webhook-path: https://telegrambotforyoshlar.herokuapp.com/bot/
   bot-name: applicationforcompetition_bot
   bot-token: 5821134281:AAEVvI-IlsEjbgkSXYrgS1So8YUnaOiXQmw
   api-url : https://api.telegram.org/
@@ -12,7 +12,6 @@ spring:
     url: jdbc:postgresql://ec2-35-170-146-54.compute-1.amazonaws.com:5432/dfkg95omvc7en4
     username: piqycyujxdytpl
     password: 8844f5d98d9c1c82729ff348276bb997dc53802593692edb859996051ccc2b75
-    driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
       ddl-auto: update
