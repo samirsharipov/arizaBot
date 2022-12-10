@@ -1,1 +1,1 @@
-worker: sh target/bin/arizaBot
+web: java -Dspring.profiles.active=default -Dserver.port=$PORT -jar target/*.jar
