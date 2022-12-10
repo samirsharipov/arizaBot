@@ -13,7 +13,7 @@ import uz.sigma.arizabot.MainBot;
 public class WebhookController {
     private MainBot bot;
 
-    @PostMapping("bot/")
+    @PostMapping("/")
     public BotApiMethod<?> onUpdateReceived(@RequestBody Update update) {
         return bot.onWebhookUpdateReceived(update);
     }
