@@ -1,8 +1,8 @@
-server:
-  port: 8090
+#server:
+#  port: 8090
 
 telegram:
-  webhook-path: https://telegrambotforyoshlar.herokuapp.com/
+  webhook-path: https://telegrambotforyoshlar.herokuapp.com
   bot-name: applicationforcompetition_bot
   bot-token: 5821134281:AAEVvI-IlsEjbgkSXYrgS1So8YUnaOiXQmw
   api-url : https://api.telegram.org/
